@@ -2,17 +2,17 @@
 char sex = 'K';
 int age = 33;
 
-if (sex == 'K' && age > 18)
+if (sex == 'M' && age > 18)
 {
     Console.WriteLine("Kobieta poniżej lat 30");
 }
 
-else if (age >= 33 && sex == 'K')
+if (age < 33 && sex == 'K')
 {
-    Console.WriteLine("Ewa lat 33");
+    Console.WriteLine("Niepełnoletni mężczyzna");
 }
 
 else if  (name == "Ewa" && age < 40)
 {
-    Console.WriteLine("Niepełnoletni mężczyzna");
+    Console.WriteLine("Ewa lat 33");
 }
